@@ -7,6 +7,6 @@ def isEven(number):
 if __name__ == "__main__":
     number = -1
     while number <= 0:
-        number = eval(input("Please enter a positive number: "))
+        number = input("Please enter a positive number: ")
     isEven(number)
     
